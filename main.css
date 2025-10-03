@@ -88,6 +88,59 @@ a button {
 a button:hover{
     color: black;
     border-bottom: 2px solid black;
-    /* background-color: aqua; */
     transition: .1s;
+}
+
+.head-a-button-on{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* header-taps */
+    .header-taps .header-tap {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); 
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .header-taps .header-tap img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header-taps .header-tap h3 {
+        text-align: center;
+    }
+
+    .header-taps .header-tap p {
+        max-width: 530px;
+        display: block;
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+/* main */
+main{
+
+}
+
+main .cardes .card{
+
+}
+
+main .cardes .card img{
+    width: 100%;
+}
+
+main .cardes .card button {
+    padding: 14px 24px;
+    border: 0 solid;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: -127px;
+    left: 273px;
 }
