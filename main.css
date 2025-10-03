@@ -1,0 +1,93 @@
+/* all stuff */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+/* body{
+    padding-top: 88px;
+} */
+
+p{
+    /* margin: 0px; */
+}
+
+a {
+    color: #717171;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+/* header stuff */
+header {
+    height: 88px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* left-header */
+header .left-header-logoAndLinks {
+    display: flex;
+    align-items: center;
+}
+
+header .left-header-logoAndLinks img {
+    /* background-color: aqua; */
+    margin-top: 1px;
+    width: 99px;
+}
+
+header .left-header-logoAndLinks .headerLinks {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+header .left-header-logoAndLinks .headerLinks .headerLink{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* header .left-header-logoAndLinks .headerLinks .headerLink:hover{
+    color: black;
+    border-bottom: 2px solid black;
+} */
+
+/* right-header */
+header .right-header-icons{
+    display: flex;
+}
+
+header .right-header-icons button {
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    color: gray;
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+header .right-header-icons button:hover{
+    color: black;
+}
+
+
+a button {
+    color: #717171;
+    font-weight: 600;
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    font-size: 18px;
+    height: 88px;
+}
+
+a button:hover{
+    color: black;
+    border-bottom: 2px solid black;
+    /* background-color: aqua; */
+    transition: .1s;
+}
